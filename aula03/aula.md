@@ -27,7 +27,7 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 - Desempenho pior por causa de comunicação
 - Gerenciamento mais complexo
 
-## Tecnológias Relacionadas
+## Tecnologias Relacionadas
 
 - Conteinerização (Docker)
 - Execução e Orquestração de Microsserviços (docker-compose, Kubernetes)
