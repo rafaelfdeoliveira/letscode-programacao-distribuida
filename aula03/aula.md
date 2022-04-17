@@ -20,6 +20,8 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 - Manutenção mais fácil
 - Paralelização de trabalho
 - Escalabilidade de serviços específicos
+- Reutilização dos serviços
+- Utilização de tecnologias diferentes
 
 ### Desvantagens
 
