@@ -12,7 +12,7 @@ Arquitetura de software na qual a aplicação é divididade em diversos serviço
 
 ### Exemplo
 
-
+Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura monolítica comparando com um implementado na arquitetura de microsserviços.
 
 ### Vantagens
 
