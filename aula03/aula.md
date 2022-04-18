@@ -8,7 +8,7 @@ Arquitetura de software na qual a aplicação é divididade em diversos serviço
 
 - Propósito Único: Cada microserviço deve ter uma única responsabilidade.
 - Baixo Acomplamento: Os serviços tem que ser o mais independentes possível um dos outros. O deploy de cada um obrigatóriamente tem que ser independente. Banco de dados únicos para cada serviço.
-- Alta Coesão:
+- Alta Coesão: Ligado também a ideia do propósito único, o código em um micro serviço deve ser bastante coeso.
 
 ### Exemplo
 
@@ -19,6 +19,7 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 - Desenvolvimento mais rápido
 - Manutenção mais fácil
 - Paralelização de trabalho
+- Equipe especializadas
 - Escalabilidade de serviços específicos
 - Reutilização dos serviços
 - Utilização de tecnologias diferentes
@@ -29,6 +30,7 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 - Desempenho pior por causa de comunicação
 - Gerenciamento mais complexo
 - Custos podem ser maiores
+- Equipes que não conhecem a aplicação toda
 
 ## Tecnologias Relacionadas
 
@@ -37,3 +39,6 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 - Comunicação entre serviços (Assíncrona e Síncrona)
 - CI/CD
 - Cache
+- Balanceamento de carga
+- Gateway
+- Circuit Breaker
