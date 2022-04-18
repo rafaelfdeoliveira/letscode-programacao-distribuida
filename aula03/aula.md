@@ -7,7 +7,7 @@ Arquitetura de software na qual a aplicação é divididade em diversos serviço
 ### Principais Características
 
 - Propósito Único: Cada microserviço deve ter uma única responsabilidade.
-- Baixo Acomplamento: Os serviços tem que ser o mais independentes possível um dos outros. O deploy de cada um obrigatóriamente tem que ser independente. Banco de dados únicos para cada serviço.
+- Baixo Acoplamento: Os serviços tem que ser o mais independentes possível um dos outros. O deploy de cada um obrigatóriamente tem que ser independente. Banco de dados únicos para cada serviço.
 - Alta Coesão: Ligado também a ideia do propósito único, o código em um micro serviço deve ser bastante coeso.
 
 ### Exemplo
