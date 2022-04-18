@@ -27,7 +27,8 @@ Vamos analisar a arquitetura de um e-commerce implementado em uma arquitetura mo
 ### Desvantagens
 
 - Deploy muito mais complexo
-- Desempenho pior por causa de comunicação
+- Debug de problemas muito mais complexo
+- Desempenho pode ser pior por causa de comunicação
 - Gerenciamento mais complexo
 - Custos podem ser maiores
 - Equipes que não conhecem a aplicação toda
