@@ -41,4 +41,6 @@ Ferramenta para usar o Redis pela linha de comando, já está disponível na ima
     LRANGE mylist 0 4
 
     HGETALL produto
+    
+    DEL key
 
