@@ -24,21 +24,21 @@ https://redis.io/docs/getting-started/installation/
 
 Usando o Docker: 
 
-  docker run --name redis -p 6379:6379 -d redis
+    docker run --name redis -p 6379:6379 -d redis
   
 ## redis-cli
 
 Ferramenta para usar o Redis pela linha de comando, já está disponível na imagem docker.
 
-  KEYS *
-  
-  SET key value
-  
-  GET key
-  
-  RPUSH mylist 2
-  
-  LRANGE mylist 0 4
+    KEYS *
 
-  HGETALL produto
+    SET key value
+
+    GET key
+
+    RPUSH mylist 2
+
+    LRANGE mylist 0 4
+
+    HGETALL produto
 
