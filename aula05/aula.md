@@ -28,4 +28,17 @@ Usando o Docker:
   
 ## redis-cli
 
+Ferramenta para usar o Redis pela linha de comando, já está disponível na imagem docker.
+
+  KEYS *
+  
+  SET key value
+  
+  GET key
+  
+  RPUSH mylist 2
+  
+  LRANGE mylist 0 4
+
+  HGETALL produto
 
