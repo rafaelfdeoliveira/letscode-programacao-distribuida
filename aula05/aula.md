@@ -30,17 +30,31 @@ Usando o Docker:
 
 Ferramenta para usar o Redis pela linha de comando, já está disponível na imagem docker.
 
+Listar todas as chaves inseridas no Redis
+
     KEYS *
+    
+Criar uma nova chave
 
     SET key value
+    
+Mostrar o valor associado a uma chave
 
     GET key
+    
+Right PUSH em uma lista
 
     RPUSH mylist 2
+    
+Mostrar os dados de uma lista
 
     LRANGE mylist 0 4
+    
+Mostrar os dados de um Hash
 
     HGETALL produto
+    
+Deletar uma chave
     
     DEL key
 
