@@ -50,9 +50,17 @@ Mostrar os dados de uma lista
 
     LRANGE mylist 0 4
     
+Adicionar dados em um hash
+
+    hset key field value
+    
+Mostrar dados de um hash
+
+    hget key field 
+    
 Mostrar os dados de um Hash
 
-    HGETALL produto
+    HGETALL key
     
 Deletar uma chave
     
