@@ -21,6 +21,15 @@ Fazer uma busca com filtro
     
     db.cliente.find({teste:'teste'})
     
+Fazer uma busca em subcampo
+    
+    bd.cliente.find({ "_id": "oranges", "qty": { "in stock": 8, "ordered": 12 } })
+    
+Funções
+
+    db.collection.find( { qty: { $gt: 4 } } )
+
+    
 Executar uma função
 
     db.cliente.find().forEach(x => console.log(x))
