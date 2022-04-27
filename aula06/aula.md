@@ -76,7 +76,7 @@ Vamos implementar as seguintes consultas:
 - Todas as compras que tenham custado mais de 5000 reais.
 
 
-        db.produto.insertOne({
+        db.compras.insertOne({
           "_id": 1,
           "nome": "Eduardo",
           "idade": 36,
@@ -92,4 +92,9 @@ Vamos implementar as seguintes consultas:
             }
           ]
         })
+        
+        db.compras.find( { produtos: { $size: 2 } } );
+        
+        
+        db.compras.find( { produtos: { "codigo": "1", "quantidade": 5 } } );
 
