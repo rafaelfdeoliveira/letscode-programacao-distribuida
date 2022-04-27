@@ -76,20 +76,20 @@ Vamos implementar as seguintes consultas:
 - Todas as compras que tenham custado mais de 5000 reais.
 
 
-    db.produto.insertOne({
-      "_id": 1,
-      "nome": "Eduardo",
-      "idade": 36,
-      "dataNascimento": new Date(1986-01-01),
-      "produtos": [
-        {
-            "codigo": "1",
-            "quantidade": 5
-        },
-                {
-            "codigo": "2",
-            "quantidade": 5
-        }
-      ]
-    })
-    
+        db.produto.insertOne({
+          "_id": 1,
+          "nome": "Eduardo",
+          "idade": 36,
+          "dataNascimento": new Date(1986-01-01),
+          "produtos": [
+            {
+                "codigo": "1",
+                "quantidade": 5
+            },
+                    {
+                "codigo": "2",
+                "quantidade": 5
+            }
+          ]
+        })
+
