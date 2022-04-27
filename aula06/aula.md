@@ -75,5 +75,21 @@ Vamos implementar as seguintes consultas:
 - Todas as compras feitas no ano de 2020.
 - Todas as compras que tenham custado mais de 5000 reais.
 
-As compras devem possuir id, id do cliente que fez a compra, data da compra, lista de produtos com o código e a quanttidade do produto comprada e o valor total da compra.˜a
-As compras devem possuir id, id do cliente que fez a compra, data da compra, lista de produtos com o código e a quanttidade do produto comprada e o valor total da compra.
+
+    db.produto.insertOne({
+      "_id": 1,
+      "nome": "Eduardo",
+      "idade": 36,
+      "dataNascimento": new Date(1986-01-01),
+      "produtos": [
+        {
+            "codigo": "1",
+            "quantidade": 5
+        },
+                {
+            "codigo": "2",
+            "quantidade": 5
+        }
+      ]
+    })
+    
