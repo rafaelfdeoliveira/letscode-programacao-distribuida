@@ -100,6 +100,21 @@ Compras
       
       ]
     })
+    
+    
+        db.compra.insertOne({
+      "_id": "cc5f126d-af7c-46da-9c57-0346cfc661a3",
+      "cliente": "13d9bac2-2544-45ea-81ab-da2766502261",
+      "dataCompra": new Date('2023-01-01'),
+      "valorTotal": 2001.00,
+      "produtos": [
+        {
+            "idProduto": "80f3ac17-cd8c-42da-b867-d395cd271340",
+            "quantidade": 2
+        }
+      
+      ]
+    })
 
 Produtos
 
@@ -180,7 +195,24 @@ Clientes
 Vamos implementar as seguintes consultas:
 
 - Todos os clientes que moram em São Paulo.
+
+        db.cliente.find({'endereco.cidade': 'SP'})
+
+        db.cliente.find({endereco: {logradouro: "rua abc", numero: 300, cidade: 'SP'}})
+
 - Todos os clientes que tenham mais de 20 anos.
+
+        db.cliente.find( { idade: { $gt: 20 } } )
+
 - Todos os produtos que custam mais de 1000 reais.
-- Todas as compras feitas no ano de 2020.
+
+        db.produto.find( { preco: { $gt: 1000 } } )
+
+- Todas as compras feitas no ano de 2022.
+    
+        db.compra.find( { dataCompra: { $gte: new Date('2022-01-01'), $lt: new Date('2023-01-01') } } )
+
 - Todas as compras que tenham custado mais de 5000 reais.
+
+
+        db.compra.find( { valorTotal: { $gte: 5000 } } )
