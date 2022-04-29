@@ -1,0 +1,12 @@
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/kafka/SendKafkaMessage.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/redis/CacheClienteService.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/kafka/ReceiveKafkaMessage.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/shop/dto/ClienteDTO.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/shop/dto/ProdutoDTO.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/service/ClienteService.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/App.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/service/ProdutoService.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/redis/RedisConfiguration.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/kafka/KafkaConfig.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/shop/dto/CompraDTO.java
+/Users/eduardosantana/dev/exemplo/shop-validator/src/main/java/com/letscode/validator/redis/ProdutoService.java

@@ -1,0 +1,13 @@
+com/letscode/validator/kafka/ReceiveKafkaMessage.class
+com/letscode/shop/dto/ClienteDTO.class
+com/letscode/validator/redis/RedisConfiguration.class
+com/letscode/validator/redis/ProdutoService.class
+com/letscode/validator/service/ClienteService.class
+com/letscode/validator/service/ProdutoService.class
+com/letscode/shop/dto/ProdutoDTO.class
+com/letscode/validator/redis/CacheClienteService.class
+com/letscode/shop/dto/CompraDTO.class
+com/letscode/validator/kafka/SendKafkaMessage.class
+com/letscode/validator/kafka/KafkaConfig.class
+com/letscode/shop/dto/ProdutoDTO$ProdutoDTOBuilder.class
+com/letscode/validator/App.class
