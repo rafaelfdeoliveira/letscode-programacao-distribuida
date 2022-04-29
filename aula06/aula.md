@@ -67,6 +67,62 @@ As compras devem possuir id, id do cliente que fez a compra, data da compra, lis
 
 Vamos cadastrar pelo menos 3 objetos em cada coleção.
 
+Compras
+
+    db.compra.insertOne({
+      "_id": "dbd287cf-5b1d-4190-9f1b-1a0ede83d1f9",
+      "cliente": "13d9bac2-2544-45ea-81ab-da2766502261",
+      "dataCompra": new Date('2022-01-01'),
+      "valorTotal": 2001.00,
+      "produtos": [
+        {
+            "idProduto": "80f3ac17-cd8c-42da-b867-d395cd271340",
+            "quantidade": 2
+        }
+      
+      ]
+    })
+    
+    db.compra.insertOne({
+      "_id": "a6069b72-3f1a-4e7c-ba6f-67568b5673af",
+      "cliente": "13d9bac2-2544-45ea-81ab-da2766502261",
+      "dataCompra": new Date('2022-01-01'),
+      "valorTotal": 7001.50,
+      "produtos": [
+        {
+            "idProduto": "80f3ac17-cd8c-42da-b867-d395cd271340",
+            "quantidade": 2
+        },
+        {
+            "idProduto": "871ffd07-9f84-47e4-a264-b4dd3c137158",
+            "quantidade": 1
+        }
+      
+      ]
+    })
+
+Produtos
+
+    db.produto.insertOne({
+      "_id": "80f3ac17-cd8c-42da-b867-d395cd271340",
+      "nome": "TV",
+      "descricao": "TV",
+      "preco": 1000.50
+    })
+
+    db.produto.insertOne({
+      "_id": "43b5ca42-4b94-4dd1-9bdf-c0cd3b392179",
+      "nome": "PS5",
+      "descricao": "PS5",
+      "preco": 5000.50
+    })
+    
+    db.produto.insertOne({
+      "_id": "871ffd07-9f84-47e4-a264-b4dd3c137158",
+      "nome": "Notebook",
+      "descricao": "Notebook",
+      "preco": 5000.50
+    })    
 
 Clientes
 
