@@ -13,7 +13,7 @@ Inserir um documento em uma coleção
       "_id": 1,
       "nome": "Eduardo",
       "idade": 36,
-      "dataNascimento": new Date(1986-01-01),
+      "dataNascimento": new Date('1986-01-01'),
       "telefone": {
         "ddd": "16",
         "numero": "12345678"
@@ -63,9 +63,63 @@ Os clientes devem possuir id, cpf, nome, idade, data de nascimento, telefone e e
 
 Os produtos devem possuir id, nome, codigo, descricao e preço.
 
-As compras devem possuir id, id do cliente que fez a compra, data da compra, lista de produtos com o código e a quanttidade do produto comprada e o valor total da compra.
+As compras devem possuir id, id do cliente que fez a compra, data da compra, lista de produtos com o código e a quantidade do produto comprada e o valor total da compra.
 
 Vamos cadastrar pelo menos 3 objetos em cada coleção.
+
+
+Clientes
+
+    db.cliente.insertOne({
+      "_id": "13d9bac2-2544-45ea-81ab-da2766502261",
+      "nome": "Eduardo",
+      "cpf": "12345",
+      "idade": 36,
+      "dataNascimento": new Date('1986-01-01'),
+      "telefone": [{
+        "ddd": "16",
+        "numero": "12345678"
+      }],
+      "endereco": {
+        "logradouro": "rua abc",
+        "numero": 300,
+        "cidade": "SP"
+      }
+    })
+    
+    db.cliente.insertOne({
+      "_id": "acd1452e-74dc-4182-bb70-ca02e36cdaa3",
+      "nome": "Maria",
+      "cpf": "54321",
+      "idade": 36,
+      "dataNascimento": new Date('1986-01-01'),
+      "telefone": [{
+        "ddd": "16",
+        "numero": "12345678"
+      }],
+      "endereco": {
+        "logradouro": "rua abc",
+        "numero": 300,
+        "cidade": "SP"
+      }
+    })
+    
+        db.cliente.insertOne({
+      "_id": "6b0f8797-7f4c-42d9-9ea3-d1943daa8afd",
+      "nome": "Joao",
+      "cpf": "423344",
+      "idade": 15,
+      "dataNascimento": new Date('1986-01-01'),
+      "telefone": [{
+        "ddd": "16",
+        "numero": "12345678"
+      }],
+      "endereco": {
+        "logradouro": "rua abc",
+        "numero": 300,
+        "cidade": "RJ"
+      }
+    })
 
 Vamos implementar as seguintes consultas:
 
