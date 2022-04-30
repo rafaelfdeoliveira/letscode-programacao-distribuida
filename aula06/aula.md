@@ -49,6 +49,10 @@ Busca de range de data
 
     db.cliente.find( { dataNascimento: { $gt: new Date('1940-01-01'), $lt: new Date('1990-01-01') } } )
     
+Buscar elemento dentro de uma lista
+
+    db.cliente.find({telefone: {$in: [{ddd:'30',numero:'3121312'}]}})
+    
 Executar uma função
 
     db.cliente.find().forEach(x => console.log(x))
